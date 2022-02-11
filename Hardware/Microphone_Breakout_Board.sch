@@ -30,10 +30,11 @@ U 1 1 6203F6D0
 P 3700 3200
 F 0 "C1" H 3585 3337 50  0000 R CNN
 F 1 "100n" H 3585 3246 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3738 3050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3738 3050 50  0001 C CNN
 F 3 "~" H 3700 3200 50  0001 C CNN
 F 4 "10V" H 3585 3155 50  0000 R CNN "Value2"
-F 5 "???" H 3585 3064 50  0000 R CNN "Value3"
+F 5 "C0G" H 3585 3064 50  0000 R CNN "Value3"
+F 6 "C3216C0G1H104J160AA" H 3700 3200 50  0001 C CNN "ManufacturerPartNumber"
 	1    3700 3200
 	1    0    0    -1  
 $EndComp
@@ -43,10 +44,11 @@ U 1 1 6203FF4C
 P 5150 3000
 F 0 "C2" V 4716 3000 50  0000 C CNN
 F 1 "100n" V 4807 3000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5188 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5188 2850 50  0001 C CNN
 F 3 "~" H 5150 3000 50  0001 C CNN
 F 4 "10V" V 4898 3000 50  0000 C CNN "Value2"
-F 5 "???" V 4989 3000 50  0000 C CNN "Value3"
+F 5 "C0G" V 4989 3000 50  0000 C CNN "Value3"
+F 6 "C3216C0G1H104J160AA" H 5150 3000 50  0001 C CNN "ManufacturerPartNumber"
 	1    5150 3000
 	0    1    1    0   
 $EndComp
@@ -56,10 +58,11 @@ U 1 1 620405DE
 P 5150 3300
 F 0 "C3" V 5310 3300 50  0000 C CNN
 F 1 "100n" V 5401 3300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5188 3150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5188 3150 50  0001 C CNN
 F 3 "~" H 5150 3300 50  0001 C CNN
 F 4 "10V" V 5492 3300 50  0000 C CNN "Value2"
-F 5 "???" V 5583 3300 50  0000 C CNN "Value3"
+F 5 "C0G" V 5583 3300 50  0000 C CNN "Value3"
+F 6 "C3216C0G1H104J160AA" H 5150 3300 50  0001 C CNN "ManufacturerPartNumber"
 	1    5150 3300
 	0    1    1    0   
 $EndComp
@@ -152,4 +155,6 @@ Wire Wire Line
 	6000 3200 6100 3200
 Wire Wire Line
 	6000 3300 6100 3300
+Text Notes 3650 4450 0    50   ~ 0
+Class II capacitors are not recommended\nnear the microphone because of\ntheir piezoelectric effect. 
 $EndSCHEMATC
