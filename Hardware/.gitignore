@@ -1,5 +1,4 @@
-Assembly_Files/
-PCB_Production_Files/
+Production_Files/
 *.bak
 *-bak
 *.csv
